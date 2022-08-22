@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Portofolio Andre</title>
 
-    <!-- My CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">   
 
 </head>
@@ -14,37 +14,41 @@
     <!-- Navbar Section -->
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portofolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#porto">Portofolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <!-- End of Navbar -->
 
     <!-- Jumbotron -->
     <section class="jumbotron">
-        <div class="caption">
-            <h4>Hi, I am</h4>
-            <h2>Rafi Adrian Prasetya</h2>
-            <p>Front-End Developer | Web Designer</p>
+        <div id="home"></div>
+            <div class="caption">
+                <h4>Hi, I am</h4>
+                <h2>Rafi Adrian Prasetya</h2>
+                <p>Front-End Developer | Web Designer</p>
+            </div>
         </div>
     </section>
     <!-- End of Jumbotron -->
 
     <!-- Profile -->
     <section class="profile">
-        <div class="container">
-            <div class="profile-set">
-                <div class="profile-details">
-                        <h2>About Me</h2>
-                        <p>Hi, I am Rafi Adrian Prasetya. Everybody called me Andre. I am from Malang, Indonesia. I'm a student of SMK Telkom Malang. I was born on April 27, 2006. I work as a Front end Developer & Web Designer. I'm a fast learner and comprehensive.</p>
-                        <button>Lihat Resume</button>
-                </div>
-                <div class="profile-map">
-                    <div id="contentframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15805.108865089394!2d112.6556212!3d-7.970276150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285f49176fdd%3A0x2c26543ce41dfb1e!2sJl.%20Danau%20Sentani%20Utara%20III%2C%20Madyopuro%2C%20Kec.%20Kedungkandang%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065139!5e0!3m2!1sen!2sid!4v1660781498808!5m2!1sen!2sid" width="100%" height="360px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="about">
+            <div class="container">
+                <div class="profile-set">
+                    <div class="profile-details">
+                            <h2>About Me</h2>
+                            <p>Hi, I am Rafi Adrian Prasetya. Everybody called me Andre. I am from Malang, Indonesia. I'm a student of SMK Telkom Malang. I was born on April 27, 2006. I work as a Front end Developer & Web Designer. I'm a fast learner and comprehensive.</p>
+                            <button>Lihat Resume</button>
+                    </div>
+                    <div class="profile-map">
+                        <div id="contentframe">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15805.108865089394!2d112.6556212!3d-7.970276150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285f49176fdd%3A0x2c26543ce41dfb1e!2sJl.%20Danau%20Sentani%20Utara%20III%2C%20Madyopuro%2C%20Kec.%20Kedungkandang%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065139!5e0!3m2!1sen!2sid!4v1660781498808!5m2!1sen!2sid" width="100%" height="360px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,80 +57,81 @@
     <!-- End of Profile -->
 
     <!-- Portofolio -->
-
     <section class="porto">
-        <div class="container">
-            <div class="title">
-                <h2>Portofolio</h2>
-            </div>
-            <div class="porto-set">
-                <div class="porto-sl">
-                    <div class="porto-skill">
-                        <h4>Skills</h4>
-                        <div class="skill-details">
-                            <div class="skill-detail">
-                                <h6>Java</h6>
-                                <div class="line"></div>
-                            </div>
-                            <div class="skill-detail">
-                                <h6>HTML</h6>
-                                <div class="line"></div>
-                            </div>
-                            <div class="skill-detail">
-                                <h6>CSS</h6>
-                                <div class="line"></div>
-                            </div>
-                            <div class="skill-detail">
-                                <h6>PHP</h6>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="porto-lang">
-                        <h4>Languages</h4>
-                        <div class="lang-details">
-                            <div class="lang-ind">
-                                <h6>Indonesia</h6>
-                                <div class="line"></div>
-                            </div>
-                            <div class="lang-eng">
-                                <h6>English</h6>
-                                <div class="line"></div>
-                            </div>
-                            <div class="lang-jav">
-                                <h6>Javanese</h6>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
+        <div id="porto">
+            <div class="container">
+                <div class="title">
+                    <h2>Portofolio</h2>
                 </div>
-                <div class="porto-exp">
-                    <h2>Expertise</h2>
-                    <div class="exp-up">
-                        <span>2021 - Present</span>
-                        <h6>Web Designer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                <div class="porto-set">
+                    <div class="porto-sl">
+                        <div class="porto-skill">
+                            <h4>Skills</h4>
+                            <div class="skill-details">
+                                <div class="skill-detail">
+                                    <h6>Java</h6>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="skill-detail">
+                                    <h6>HTML</h6>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="skill-detail">
+                                    <h6>CSS</h6>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="skill-detail">
+                                    <h6>PHP</h6>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="porto-lang">
+                            <h4>Languages</h4>
+                            <div class="lang-details">
+                                <div class="lang-ind">
+                                    <h6>Indonesia</h6>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="lang-eng">
+                                    <h6>English</h6>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="lang-jav">
+                                    <h6>Javanese</h6>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="line-dark"></div>
-                    <div class="exp-down">
-                        <span>2021 - Present</span>
-                        <h6>Web Designer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
-                    </div>
+                    <div class="porto-exp">
+                        <h2>Expertise</h2>
+                        <div class="exp-up">
+                            <span>2021 - Present</span>
+                            <h6>Web Designer</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                        </div>
+                        <div class="line-dark"></div>
+                        <div class="exp-down">
+                            <span>2021 - Present</span>
+                            <h6>Web Designer</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                        </div>
 
-                </div>
-                <div class="porto-edu">
-                    <h2>Education</h2>
-                    <div class="edu-up">
-                        <span>2021 - Present</span>
-                        <h6>Web Designer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
                     </div>
-                    <div class="line-dark"></div>
-                    <div class="edu-down">
-                        <span>2021 - Present</span>
-                        <h6>Web Designer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                    <div class="porto-edu">
+                        <h2>Education</h2>
+                        <div class="edu-up">
+                            <span>2021 - 2024</span>
+                            <h6>SMK Telkom Malang</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                        </div>
+                        <div class="line-dark"></div>
+                        <div class="edu-down">
+                            <span>2018 - 2021</span>
+                            <h6>SMP Negeri 21 Malang</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo impedit placeat esse. Officia labore rem dignissimos vitae mollitia, quas temporibus. Illo maxime dolores, doloremque atque tempore fuga vitae nemo.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,58 +142,63 @@
 
     <!-- Resume Section -->
     <section class="resume">
-        <div class="container-resume">
-            <div class="title">
-                <h2>Resume</h2>
-            </div>
-            <div class="resume-content">
-                <div class="resume-detail">
-                    <img src="./img/ayomasak.png" alt="">
-                    <div class="content-desc">
-                        <h4>Project DDG - Tugas Akhir</h4>
-                        <span>2022</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
-                    </div>
+        <div id="resume">
+            <div class="container-resume">
+                <div class="title">
+                    <h2>Resume</h2>
                 </div>
-                <div class="resume-detail">
-                    <img src="./img/laundry.png" alt="">
-                    <div class="content-desc">
-                        <h4>Project DDG - Tugas Akhir</h4>
-                        <span>2022</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
+                <div class="resume-content">
+                    <div class="resume-detail">
+                        <img src="./img/ayomasak.png" alt="">
+                        <div class="content-desc">
+                            <h4>Project DDG - Tugas Akhir</h4>
+                            <span>2022</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="resume-detail">
-                    <img src="./img/siakad.png" alt="">
-                    <div class="content-desc">
-                        <h4>Project DDG - Tugas Akhir</h4>
-                        <span>2022</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
+                    <div class="resume-detail">
+                        <img src="./img/laundry.png" alt="">
+                        <div class="content-desc">
+                            <h4>Project UKL - Laundry</h4>
+                            <span>2022</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
+                        </div>
+                    </div>
+                    <div class="resume-detail">
+                        <img src="./img/siakad.png" alt="">
+                        <div class="content-desc">
+                            <h4>Project DDG - Siakad</h4>
+                            <span>2021</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae dolores, dolor pariatur sequi debitis qui possimus inventore eius hic totam, voluptatum facere laboriosam fugiat fuga, rem nobis quaerat impedit reprehenderit aliquid assumenda sed nam eaque porro. Aspernatur vero incidunt deleniti reprehenderit assumenda dolor tenetur commodi facilis! Pariatur a sit, fuga reiciendis eum autem. Quis neque veritatis et blanditiis delectus, magni beatae, officia possimus mollitia vel aperiam? Totam, voluptatem nam.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Resume -->
+
     <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <div class="set-footer">
-                <div class="brand-icon">
-                    <a href="https://github.com/rafiadpr"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.facebook.com/rafiadrian.prasetya.94"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/rafiadpr/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://twitter.com/RafiAdrianP"><i class="fa-brands fa-twitter"></i></a>
-                </div>
-                <div class="button-hire">
-                    <button>Hire Me!</button>
-                </div>
-                <div class="contact">
-                    <ul>
-                        <li><i class="fa-solid fa-envelope"></i><span>rafiadrianp@gmail.com</span></li>
-                        <li><i class="fa-solid fa-phone"></i><span>081328878542</span></li>
-                        <li><i class="fa-solid fa-location-dot"></i><span> Malang, Indonesia</span></li>
-                    </ul>
+        <div id="contact">
+            <div class="container">
+                <div class="set-footer">
+                    <div class="brand-icon">
+                        <a href="https://github.com/rafiadpr"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/rafiadrian.prasetya.94"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/rafiadpr/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/RafiAdrianP"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="button-hire">
+                        <button>Hire Me!</button>
+                    </div>
+                    <div class="contact">
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i><span>rafiadrianp@gmail.com</span></li>
+                            <li><i class="fa-solid fa-phone"></i><span>081328878542</span></li>
+                            <li><i class="fa-solid fa-location-dot"></i><span> Malang, Indonesia</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div> 
