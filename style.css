@@ -2,19 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* CSS Reset */
-html{
-    scroll-behavior: smooth;
-}
+@media
+(prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins';
 }
-
+.pemisah{
+    width: 100%;
+    height: 60px;
+    
+}
 /* Navbar */
 
 nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10000;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -42,7 +53,7 @@ nav ul li a {
 
 /* Jumbotron */
 .jumbotron {
-    height: 90vh;
+    height: 100vh;
     background-image: url(./img/header.jpg);
     background-size: cover;
     background-position: center;
@@ -78,7 +89,7 @@ nav ul li a {
 /* Profile */
 
 .profile {
-    height: 55vh;
+    height: 50vh;
     padding: 40px 0;
 }
 
@@ -397,108 +408,3 @@ footer{
 	margin-left: 20px;
 }
 /* End Of Footer */
-
-/* Media Query */
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-@media screen and (max-width: 960px) {
-    .nav{
-        position: inherit;
-    }
-
-    .jumbotron{
-        width: 90%;
-        margin: 25px auto;
-    }
-
-    .sidebar{
-        width: 100%;
-        margin: 25px 0 0;
-        float: right;
-    }
-
-    .sidebar .widget{
-        padding: 5%;
-    }
-
-    nav.menu ul{
-        width: 100%;
-    }
-
-    nav.menu ul{
-        float: inherit;
-    }
-
-    nav.menu ul li{
-        float: inherit;
-        margin: 0;
-    }
-
-    nav.menu ul a{
-        padding: 15px;
-        font-size: 16px;
-        border-top: 1px solid #1abf9f;
-        border-bottom: 1px solid #16a085;
-    }
-
-    .blog{
-        width: 90%;
-    }
-
-    .conteudo{
-        float: inherit;
-        margin: 0 auto 25px;
-        width: 101%;
-        border: 1px solid #dedede;
-        padding: 5%;
-        background: #fff;
-    }
-
-    .conteudo img{
-        max-width: 110%;
-        margin: 0 0 25px -5%;
-        min-width: 110%;
-    }
-
-    .conteudo .continue-lendo:hover{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 460px) {
-
-    nav.menu ul a{
-        padding: 15px;
-        font-size: 14px;
-    }
-
-    .sidebar{
-        display: none;
-    }
-
-    .post-info{
-        display: none;
-    }
-
-    .conteudo{
-        margin: 25px auto;
-    }
-
-    .conteudo img{
-        margin: -5% 0 25px -5%;
-    }
-}
-/* End of Media Query */
